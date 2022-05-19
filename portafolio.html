@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/0333fb8fe1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!--Inicio-->
+    <div class="inicio">
+        <img src="assets/img/Inicio.png" alt="Desarrollo web">
+    </div >
+    <!--Box-->
+    <section class="row box-1">
+        <div class="col-4">
+            <div>
+                <img class="perfil" src="assets/img/perfil.png">
+            </div>
+        </div>
+        <div class="col-4 info">
+            <p>Hola, buenas yo me llamo Bastian Becerra, estoy estudiando en Desafio Latam donde estoy aprendiendo a usar Html, css, boostrap, ahora javascript.
+              Un resumen de mi vida, fui un estudiante de Santo tomas el cual decidio no seguir estudiando, trabaje unos meses y transmito en una plataforma de directos.
+            </p>
+        </div>
+        <div class="col-4 d-grid gap-2 d-bl columna">
+          <button class="btn btn-success boton" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Portafolio</button>
+
+          <div class="offcanvas offcanvas-bottom ventana" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasBottomLabel">Mis clases</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body small">
+              <section class="row row-cols-1 row-cols-md-3 g-4 box-ventana-1">
+                <div class="col">
+                  <div class="card cartas" style="width: 18rem;">
+                    <img src="assets/img/cv.png" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Curriculum Vitae</h5>
+                      <p class="card-text">Este fue mi primer desafio de la academia, el cual consistio en crear un Curriculum.</p>
+                      <a href="curriculum.html" class="btn btn-danger" target="_blank">Desafio-1</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                   <div class="card cartas" style="width: 18rem;">
+                    <img src="assets/img/full-acce.png" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">CSS</h5>
+                      <p class="card-text">En el segundo desafio cree una pagina web totalmente sencilla solo usando css.</p>
+                      <a href="fullaccesorios.html" class="btn btn-success" target="_blank">Desafio-2</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card cartas" style="width: 18rem;">
+                    <img src="assets/img/Iguana.png" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Posicionamiento</h5>
+                      <p class="card-text">En el tercer desafio debimos recrear una pagina junto a una maqueta pre realizada la cual fue Iguana Page.</p>
+                      <a href="iguana-page.html" class="btn btn-info" target="_blank">Desafio-3</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card cartas" style="width: 18rem;">
+                    <img src="assets/img/boostrap.png" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Boostrap</h5>
+                      <p class="card-text">Este desafio fue un poco complicado ya que no solo tiene que funcionar en celular, si no que adecuarse a monitores de pc.</p>
+                      <a href="boostrap.html" class="btn btn-warning" target="_blank">Desafio-4</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card cartas" style="width: 18rem;">
+                    <img src="assets/img/github.png" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Curriculum Actualizado</h5>
+                      <p class="card-text">Este desafio fue la actualizacion del curriculum pero en una pagina establecida llamada github, el cual saque el curriculum de otra persona y adecue al mio.</p>
+                      <a href="https://github.com/BastianBecerra/fdsw-github" class="btn btn-dark" target="_blank">Desafio-5</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card cartas" style="width: 18rem;">
+                    <img src="assets/img/porta.png" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Portafolio</h5>
+                      <p class="card-text">La recopilacion de lo hecho en el modulo completo y acutalmente la pagina vista ahora mismo.</p>
+                      <a href="#" class="btn btn-secondary">Desafio-6</a>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+          <button class="btn btn-danger boton" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Mis trabajos</button>
+
+          <div class="offcanvas offcanvas-end ventana" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+              <h5 id="offcanvasRightLabel">Trabajos</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              Aqui un par de trabajos el cual hice.
+              <section class="container">
+                <div class="row">
+                  <div class="col">
+                    <div class="card mb-3" style="max-width: 540px;">
+                      <div class="row g-0">
+                        <div class="col-md-4">
+                          <img src="assets/img/Trabajo-1.png" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body box-trabajo">
+                            <h5 class="card-title">Carls jr</h5>
+                            <p class="card-text"> Me desempeñe de CREW, que es la realizacion de absolutamente todo en el la sede de aquel local.</p>
+                            <p class="card-text"><small class="text-muted"><i class="fas fa-map-marker-alt"></i> Vivo outlel la florida.</small></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="card mb-3" style="max-width: 540px;">
+                      <div class="row g-0">
+                        <div class="col-md-4">
+                          <img src="assets/img/Cuchuflis.png" class="img-fluid rounded-start">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body box-trabajo">
+                            <h5 class="card-title">Venta de Cuchuflis</h5>
+                            <p class="card-text">Por un tiempo trabaje haciendo cuchuflis en mi casa asi manteniendo una estabilidad.</p>
+                            <p class="card-text"><small class="text-muted"><i class="fas fa-map-marker-alt"> Sin Locacion.</i></small></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+          <button class="btn btn-info" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">Mis skills</button>
+
+          <div class="offcanvas offcanvas-top ventana-2" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+            <div class="offcanvas-header">
+              <h5 id="offcanvasTopLabel">skills</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              Aqui podemos encontrar lo que para mi es mi nivel de uso de programacion.
+            </div>
+            <section class="container">
+              <div class="row">
+                <div class="col-6">
+                  <div>
+                    <i class="fas fa-code fa-3x my-3"></i>
+                    <h5>Html y css</h5>
+                  </div>
+                  <p>Como ven tengo un 50% de conocimiento y uso de html el cual va a subir al teminar el curso</p>
+                </div>
+                <div class="col-6">
+                  <div>
+                    <i class="fab fa-bootstrap fa-3x my-3"></i>
+                    <h5>Boostrap</h5>
+                  </div>
+                  <p>Aunque no he usado todos los componentes, se para que sirven la mayoria, quedando demostrado en este Portafolio</p>
+                </div>
+              </div>
+            </section>
+          </div>
+  </section>
+    <!--footer-->
+    <footer>
+        <p>Derechos reservados. Bastian Becerra 2022.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

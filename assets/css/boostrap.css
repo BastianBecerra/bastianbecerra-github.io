@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card-title{
+    font-weight: 300;
+    color: #212529;
+}
+.card-text{
+    font-weight: 300;
+    color: #707070;
+}
+.col-4{
+    flex: 0 0 auto;
+    width: 33%;
+}
+.bg-nav{
+    background-color: #28a745;
+}
+.nav-link{
+    font-weight: 300;
+}
+.logo{
+    width: 94px;
+}
+.card{
+    margin: 3%;
+}
+.card-footer{
+    display: ruby;
+    padding-left: 5%;
+    padding-right: 6%;
+}
+.formulario{
+    text-align: center;
+    background-color: #28A745;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.correo{
+    color: white;
+    font-weight: 500;
+    padding: 1%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.precio-verde{
+    color: #28A745;
+    font-weight: 500;
+}
+.final{
+    width: 50%;
+}
+.logo2{
+    width: 94px;
+
+}
+.derecho{
+    font-weight: 300;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}

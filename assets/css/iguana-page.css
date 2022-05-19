@@ -1,0 +1,107 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+}
+.header h1{
+    font-size: 3em;
+    font-weight: 500;
+    margin: 1% 1% 1% 1%;
+    text-align: center;
+}
+.header img{
+    width: 100%;
+}
+.informacion{
+    display: flex;
+}
+.texto{
+    font-weight: 300;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-bottom: 25px;
+    padding-right: 120px;
+    margin: 6%;
+    width: 45%;
+}
+.texto p{
+    padding-left: 90px;
+}
+.p2{
+    padding-top: 20px;
+    padding-left: 90px;
+}
+.iguana-peque{
+    width: 25%;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 3%;
+    padding: 2%;
+}
+.menu{
+    background-color: #1E1A13;
+    padding-top: 1px;
+    padding-bottom: 100px;
+    padding: 73px;
+}
+.menu h2{
+    padding-bottom: 75px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 3em;
+}
+.iconos{
+    text-align: center;
+    font-weight: 300;
+    float: left;
+    width: 33%;
+}
+.fix-iconos{
+    padding-bottom: 3%;
+}
+.iconos p{
+    font-weight: 300;
+    padding-top: 3%;
+}
+.box-iguanas{
+    display: flex;
+    width: 100%;
+}
+.iguanas{
+    display: flex;
+    flex-direction: column;
+    width: 34%;
+}
+.igu1{
+    padding: 10%;
+    margin: 3%;
+    padding-top: 13%;
+    padding-left: 8%;
+}
+.igu2{
+    padding: 13%;
+    padding-top: 16%;
+    padding-right: 22%;
+}
+.igu3{
+    padding: 15%;
+    padding-top: 16%;
+    padding-left: 11%;
+    padding-bottom: 0%;
+    padding-right: 26%;
+}
+footer{
+    background-color: #1E1A13;
+    text-align: center;
+    padding: 1%;
+    font-weight: 300;
+}
+.link{
+    color: #5aee04;
+    text-decoration: none;
+    font-weight: 300;
+}
